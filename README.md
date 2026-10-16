@@ -38,6 +38,8 @@ $$
 \end{aligned}
 $$
 
+This formulation can be tackled by a global solver such as Gurobi.
+
 ## Repository structure
 
 ```
