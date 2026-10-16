@@ -4,7 +4,7 @@ This repository contains MATLAB code for computing **exact ReLU matrix decomposi
 
 ## The problem
 
-Given a nonnegative matrix $X \in \mathbb{R}^{m \times n}_{+}$ and a target rank $r$, **RMD**  looks for a low-rank matrix $\Theta \in \mathbb{R}^{m \times n}$ such that $X \approx \max(0, \Theta)$ and $ \operatorname{rank}(\Theta) \leq r,$ where the maximum is taken entrywise. 
+Given a nonnegative matrix $X \in \mathbb{R}^{m \times n}_{+}$ and a target rank $r$, **RMD**  looks for a low-rank matrix $\Theta \in \mathbb{R}^{m \times n}$ such that $X \approx \max(0, \Theta)$ and $ \mathrm{rank}(\Theta) \leq r,$ where the maximum is taken entrywise. 
 
 In this repository we focus on the **exact** case, that is, we look for $\Theta$ such that $\max(0, \Theta) = X$ holds with equality.
 
@@ -23,7 +23,7 @@ with
 $$
 \mathcal{A} = \lbrace Z \in \mathbb{R}^{m \times n} \mid \max(0, Z) = X \rbrace
 \quad \text{and} \quad
-\mathcal{B} = \lbrace \Theta \in \mathbb{R}^{m \times n} \mid \operatorname{rank}(\Theta) \leq r \rbrace.
+\mathcal{B} = \lbrace \Theta \in \mathbb{R}^{m \times n} \mid \mathrm{rank}(\Theta) \leq r \rbrace.
 $$
 
 ### 2. Factorized (QCQP) formulation
