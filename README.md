@@ -26,6 +26,8 @@ $$
 \mathcal{B} = \lbrace \Theta \in \mathbb{R}^{m \times n} \mid \text{rank}(\Theta) \leq r \rbrace.
 $$
 
+This feasibility problem can be solved by the Alternating projection Method (APM), which, starting from a feasible point in one of the sets, produces a sequence of iterates by alternately projecting onto the two sets.
+
 ### 2. Factorized (QCQP) formulation
 
 Writing the low-rank matrix explicitly as $\Theta = WH$, with $W \in \mathbb{R}^{m \times r}$ and $H \in \mathbb{R}^{r \times n}$, removes the rank constraint and leads to the following problem:
