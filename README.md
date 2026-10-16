@@ -1,6 +1,6 @@
 # Exact ReLU Matrix Decomposition (RMD)
 
-This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices. Moreover, it allows one to reproduce the results presented in our paper [3]; see https://arxiv.org/pdf/2610.22255.
+This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices. Moreover, it allows one to reproduce the results presented in our paper [2]; see https://arxiv.org/pdf/2610.22255.
 
 ## The problem
 
@@ -50,9 +50,9 @@ Exact_RMD/
 └── Algorithms_and_utils/   % solvers and auxiliary functions
 ```
 
-The numerical experiments folder contains codes to replicate the experiments contained in the paper [3]:
+The numerical experiments folder contains codes to replicate the experiments contained in the paper [2]:
 
-- Proposition_2_1: Compute the RMD of the example shown in Proposition 2.1 from [3], highlighting the ill-posedness of RMD.
+- Proposition_2_1: Compute the RMD of the example shown in Proposition 2.1 from [2], highlighting the ill-posedness of RMD.
 - Table_1: compares the Naive-RMD algorithm with the Gurobi solver on randomly generated matrices for different values of rank and dimensions.
 - Figure_2: computes an exact rank-3 factorization of the identity matrix and plot the configuration in points and hyperplanes associated to its factors.
 - Section_4_3_2: Computes a rank-3 approximation of the identity matrix using Naive-RMD with random initialization.
@@ -61,4 +61,4 @@ The numerical experiments folder contains codes to replicate the experiments con
 ## References
 
 1 L. K. Saul, *A nonlinear matrix decomposition for mining the zeros of sparse data*, SIAM Journal on Mathematics of Data Science, 4(2), 2022.
-2 G. Seraghiti, A. Awari, A. Vandaele, M. Porcelli, N. Gillis, *Accelerated algorithms for nonlinear matrix decomposition with the ReLU function*, IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2023.
+2 G. Seraghiti, A. Vandaele, N. Gillis, *The ReLU Matrix Decomposition: NP-Hardness, Ill-Posedness, and ReLU-Rank*, https://arxiv.org/pdf/2610.22255 , 2026.
