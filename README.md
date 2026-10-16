@@ -4,7 +4,7 @@ This repository contains MATLAB code for computing **exact RMD** of nonnegative 
 
 ## The problem
 
-Given a nonnegative matrix $X \in \mathbb{R}^{m \times n}_{+}$ and a target rank $r$, **RMD**  looks for a low-rank matrix $\Theta \in \mathbb{R}^{m \times n}$ such that $X \approx \max(0, \Theta)$ and $ \text{rank}(\Theta) \leq r,$ where the maximum is taken entrywise. 
+Given a nonnegative matrix $X \in \mathbb{R}^{m \times n}_{+}$ and a target rank $r$, **RMD**  looks for a low-rank matrix $\Theta \in \mathbb{R}^{m \times n}$ such that $X \approx \max(0, \Theta)$ and $\text{rank}(\Theta) \leq r$, where the maximum is taken entrywise. 
 
 In this repository we focus on the **exact** case, that is, we look for $\Theta$ such that $\max(0, \Theta) = X$ holds with equality.
 
