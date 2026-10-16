@@ -60,5 +60,5 @@ The numerical experiments folder contains codes to replicate the experiments con
 
 ## References
 
-1 L. K. Saul, *A nonlinear matrix decomposition for mining the zeros of sparse data*, SIAM Journal on Mathematics of Data Science, 4(2), 2022.
+1 L. K. Saul, *A nonlinear matrix decomposition for mining the zeros of sparse data*, SIAM Journal on Mathematics of Data Science, 4(2), 2022.\\
 2 G. Seraghiti, A. Vandaele, N. Gillis, *The ReLU Matrix Decomposition: NP-Hardness, Ill-Posedness, and ReLU-Rank*, https://arxiv.org/pdf/2610.22255 , 2026.
