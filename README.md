@@ -41,7 +41,7 @@ $$
 ## Repository structure
 
 ```
-Matlab_codes/
+Exact_RMD/
 ├── Script/                 % scripts to run the experiments
 └── Algorithms_and_utils/   % solvers and auxiliary functions
 ```
