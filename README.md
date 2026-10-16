@@ -1,6 +1,6 @@
 # Exact ReLU Matrix Decomposition (RMD)
 
-This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices. It allows one to reproduce the results presented in our paper [3]; see https://arxiv.org/pdf/2610.22255.
+This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices. Moreover, it allows one to reproduce the results presented in our paper [3]; see https://arxiv.org/pdf/2610.22255.
 
 ## The problem
 
