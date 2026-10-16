@@ -1,6 +1,6 @@
 # Exact ReLU Matrix Decomposition (RMD)
 
-This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices.
+This repository contains MATLAB code for computing **exact RMD** of nonnegative and sparse matrices. It allows one to reproduce the results presented in our paper [3]; see https://arxiv.org/pdf/2610.22255.
 
 ## The problem
 
@@ -10,9 +10,9 @@ In this repository we focus on the **exact** case, that is, we look for $\Theta$
 
 ## Formulations of the exact problem
 
-### 1. Feasibility problem
+### 1. Feasibility problem based on Latent-RMD
 
-The exact ReLU decomposition can be written as the problem of finding a point in the intersection of two sets:
+Starting from the formulation of Latent-RMD proposed by Saul [1], the exact ReLU decomposition can be written as the problem of finding a point in the intersection of two sets:
 
 $$
 \text{find } \Theta \in \mathcal{A} \cap \mathcal{B},
@@ -48,5 +48,5 @@ Exact_RMD/
 
 ## References
 
-- L. K. Saul, *A nonlinear matrix decomposition for mining the zeros of sparse data*, SIAM Journal on Mathematics of Data Science, 4(2), 2022.
-- G. Seraghiti, A. Awari, A. Vandaele, M. Porcelli, N. Gillis, *Accelerated algorithms for nonlinear matrix decomposition with the ReLU function*, IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2023.
+1 L. K. Saul, *A nonlinear matrix decomposition for mining the zeros of sparse data*, SIAM Journal on Mathematics of Data Science, 4(2), 2022.
+2 G. Seraghiti, A. Awari, A. Vandaele, M. Porcelli, N. Gillis, *Accelerated algorithms for nonlinear matrix decomposition with the ReLU function*, IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2023.
