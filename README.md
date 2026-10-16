@@ -26,7 +26,7 @@ $$
 \mathcal{B} = \lbrace \Theta \in \mathbb{R}^{m \times n} \mid \text{rank}(\Theta) \leq r \rbrace.
 $$
 
-This feasibility problem can be solved by the Alternating projection Method (APM), which, starting from a feasible point in one of the sets, produces a sequence of iterates by alternately projecting onto the two sets.
+This feasibility problem can be solved by the Alternating projection Method (APM), which, starting from a feasible point in one of the sets, produces a sequence of iterates by alternately projecting onto the two sets. The algorithm is implemented in Algorithms_and_utils/Naive_RMD.
 
 ### 2. Factorized (QCQP) formulation
 
@@ -40,7 +40,7 @@ $$
 \end{aligned}
 $$
 
-This formulation can be tackled by a global solver such as Gurobi.
+This formulation can be tackled by a global solver such as Gurobi. In particular, we used YALMIP with Gurobi subroutine. Therefore, to run our codes, the YALMIP package is required.
 
 ## Repository structure
 
@@ -49,6 +49,14 @@ Exact_RMD/
 ├── Script/                 % scripts to run the experiments
 └── Algorithms_and_utils/   % solvers and auxiliary functions
 ```
+
+The numerical experiments folder contains codes to replicate the experiments contained in the paper [3]:
+
+- Proposition_2_1: Compute the RMD of the example shown in Proposition 2.1 from [3], highlighting the ill-posedness of RMD.
+- Table_1: compares the Naive-RMD algorithm with the Gurobi solver on randomly generated matrices for different values of rank and dimensions.
+- Figure_2: computes an exact rank-3 factorization of the identity matrix and plot the configuration in points and hyperplanes associated to its factors.
+- Section_4_3_2: Computes a rank-3 approximation of the identity matrix using Naive-RMD with random initialization.
+- Figure_3: Computes a rank-3 approximation of the identity matrix using Naive-RMD initalized with a noisy exact solution.
 
 ## References
 
